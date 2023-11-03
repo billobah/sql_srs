@@ -16,4 +16,4 @@ jobs:
       - run: |
           pip install pylint
       - run: |
-          pylint app.py
+          pylint app.py --verbose .
